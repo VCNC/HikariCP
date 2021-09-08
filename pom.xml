@@ -32,8 +32,8 @@
    </properties>
 
    <groupId>com.zaxxer</groupId>
-   <artifactId>HikariCP</artifactId>
-   <version>4.0.3</version>
+   <artifactId>hikaricp</artifactId>
+   <version>4.0.3-VCNC</version>
    <packaging>bundle</packaging>
 
    <name>HikariCP</name>
@@ -72,6 +72,14 @@
       <artifactId>oss-parent</artifactId>
       <version>9</version>
    </parent>
+
+   <distributionManagement>
+      <repository>
+        <id>github</id>
+        <name>GitHub VCNC Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/vcnc/hikaricp</url>
+      </repository>
+   </distributionManagement>
 
    <dependencies>
       <dependency>
